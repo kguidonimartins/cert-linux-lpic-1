@@ -13,7 +13,7 @@ sudo: false
 
 cache: packages
 
-script: make default
+script: make all
 
 matrix:
   include:

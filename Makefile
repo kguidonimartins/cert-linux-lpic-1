@@ -8,7 +8,8 @@ all: home default
 	Rscript -e "rmarkdown::render('$<', output_format = 'all', output_dir = $(OUTDIR))"
 
 home:
-	Rscript -e "rmarkdown::render('README.md', output_file = 'index.html')"
+	Rscript -e "rmarkdown::render('README.Rmd', output_file = 'index.html')"
+	Rscript -e "rmarkdown::render('README.Rmd', output_file = 'README.md')"
 
 default: $(TARGET)     ## compile Rmd
 

@@ -1,0 +1,28 @@
+os:
+  - linux
+
+before_install: |
+  sudo apt-get -y install build-essential pandoc
+
+language: r
+
+r_packages:
+  - devtools
+
+sudo: false
+
+cache: packages
+
+script: make all
+
+matrix:
+  include:
+  - r: release
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: master

@@ -1,15 +1,15 @@
 os:
   - linux
 
+before_install: |
+  sudo apt-get -y install build-essential pandoc
+
 language: r
 
 r_packages:
   - devtools
 
 sudo: false
-
-before_install: |
-  sudo apt-get -y install build-essential
 
 cache: packages
 

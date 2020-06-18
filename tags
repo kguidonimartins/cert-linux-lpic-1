@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+%.docx	Makefile	/^%.docx %.nb.html %.html %.pdf: %.Rmd$/;"	t
+%.html	Makefile	/^%.docx %.nb.html %.html %.pdf: %.Rmd$/;"	t
+%.nb.html	Makefile	/^%.docx %.nb.html %.html %.pdf: %.Rmd$/;"	t
+%.pdf	Makefile	/^%.docx %.nb.html %.html %.pdf: %.Rmd$/;"	t
+Configuração	notas/01-instalacao-vm.md	/^# Configuração$/;"	c
+Estrutura do curso	notas/00-intro.md	/^# Estrutura do curso$/;"	c
+Instalação da máquina virtual	notas/01-instalacao-vm.md	/^# Instalação da máquina virtual$/;"	c
+Nota	notas/01-instalacao-vm.md	/^# Nota$/;"	c
+OUTDIR	Makefile	/^OUTDIR = 'renderizados'$/;"	m
+Partições	notas/01-instalacao-vm.md	/^## Partições$/;"	s
+Preparatório para Certificação Linux LPIC-1	README.md	/^# Preparatório para Certificação Linux LPIC-1$/;"	c
+Preparação do ambiente	notas/00-intro.md	/^# Preparação do ambiente$/;"	c
+SOURCES	Makefile	/^SOURCES = $(shell find . -name "*.Rmd")$/;"	m
+TARGET	Makefile	/^TARGET = $(SOURCES:%.Rmd=%.pdf) $(SOURCES:%.Rmd=%.html) $(SOURCES:%.Rmd=%.nb.html) $(SOURCES:%.R/;"	m
+clean	Makefile	/^clean:				   ## clean output dir$/;"	t
+default	Makefile	/^default: $(TARGET)     ## compile Rmd$/;"	t
+output_dir = "output", output_format = "all") })	renderizados/modelo-notas.md	/^  output_dir = "output", output_format = "all") })$/;"	s
